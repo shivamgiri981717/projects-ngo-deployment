@@ -1,0 +1,171 @@
+/* Font + Reset */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.login-page {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left Panel (Image and Welcome) */
+.left-panel {
+  flex: 1;
+  background-image: url('https://source.unsplash.com/1600x900/?mountain,sunset');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.welcome-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.welcome-text p {
+  max-width: 400px;
+  line-height: 1.5;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #2a46a1;
+}
+
+/* Right Panel (Login Form) */
+.right-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fb;
+  padding: 40px;
+}
+
+.login-form {
+  background: white;
+  padding: 60px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #444;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.checkbox {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 8px;
+}
+
+.login-btn {
+  margin-top: 20px;
+  background: linear-gradient(to right, #0d4a99, #1187ab);
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #4d0e99, #144ca0);
+}
+
+.forgot-link,
+.terms {
+  margin-top: 15px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.forgot-link a,
+.terms a {
+  color: rgb(35, 79, 150)
+}
+
+.forgot-link a:hover,
+.terms a:hover {
+  text-decoration: underline;
+}
+.login-page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.left-panel {
+  flex: 1;
+  background-image: url('./pexels-enginakyurt-1435752.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-panel {
+  flex: 1;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
